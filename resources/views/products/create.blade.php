@@ -11,6 +11,11 @@
         <h3 class="text-white text-center">Simple laravel 11 CRUD</h3>
     </div>
     <div class="container">
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-10 d-flex justify-content-end">
+              <a href="{{ route('products.index') }}" class="btn btn-dark">Cancel</a>
+            </div>
+          </div>
         <div class="row d-flex justify-content-center">
             <div class="col-md-10">
                 <div class="card my-4 border-0 shadow-lg">
@@ -47,7 +52,7 @@
                         </div>
                         <div class="mb-3">
                             <label for="name" class="form-label h5">Image: </label>
-                            <input type="file" placeholder="Enter Product Description" name="description" class="form-control" cols="10" rows="5" />
+                            <input type="file" placeholder="Enter Product Description" name="image" class="form-control" cols="10" rows="5" />
                         </div>
                         <div class="d-grid">
                             <button class="btn btn-primary btn-lg">Submit</button>
